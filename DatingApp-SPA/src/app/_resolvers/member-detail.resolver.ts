@@ -8,7 +8,7 @@ import { catchError } from 'rxjs/operators';
 
 @Injectable()
 
-export class MemberDetailResolver implements Resolve<User>{
+export class MemberDetailResolver implements Resolve<User> {
     constructor(private userService: UserService, private router: Router,
         private alertify: AlertifyService) {}
 
